@@ -19,7 +19,7 @@ export default defineNuxtModule<WagmiNuxtOptions>({
     name: packageName,
     configKey: packageName,
     compatibility: {
-      nuxt: '^3.0.0 || ^2.16.0',
+      nuxt: '>=3.0.0 || ^2.16.0',
       bridge: true,
     },
   },
